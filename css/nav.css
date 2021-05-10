@@ -1,0 +1,58 @@
+nav{
+    height:45px;
+    border-bottom:2px solid #e60012;
+}
+nav div.left-box{
+    width:209px;
+    height:45px;
+    line-height:45px;
+    background:#b1191a;
+    font-size:16px;
+    color:#fff;
+    position:relative;
+}
+nav .left-box .header1{
+    text-align: center;
+    width:209px;
+    height:45px;
+}
+nav .right-box{
+    font-size:14px;
+    height:45px;
+
+}
+nav .right-box li{
+    height:45px;
+    line-height: 45px;
+    float:left;
+    width:98px;
+    text-align: center;
+}
+
+nav .menu{
+    overflow: hidden;
+    position:absolute;
+    top:47px;
+    left:0px;
+    height:0px;
+    width:209px;
+    background:#e60012;
+    transition:height 0.3s ease-in;
+    -webkit-transition:height 0.3s ease-in;
+    -moz-transition:height 0.3s ease-in;
+    -ms-transition:height 0.3s ease-in;
+    -o-transition:height 0.3s ease-in;
+}
+nav .left-box:hover>div.menu{
+    height:464px;
+}
+nav .left-box li{
+    margin-left:1px;
+    height:32px;
+    padding-left:13px;
+}
+nav .left-box li:hover{
+    background:#fff;
+    color:red;
+    line-height: 32px;
+}
