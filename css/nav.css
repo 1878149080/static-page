@@ -28,6 +28,9 @@ nav .right-box li{
     width:98px;
     text-align: center;
 }
+nav .right-box li:hover{
+    color:#e60012;
+}
 
 nav .menu{
     overflow: hidden;

@@ -78,3 +78,6 @@ header .search{
     float:left;
     margin-right:25px;
 }
+.hotWords>ul>li:hover{
+    color:red;
+}
