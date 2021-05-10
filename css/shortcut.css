@@ -1,0 +1,25 @@
+.shortcut{
+    background:rgb(241, 241, 241);
+    font-size:12px;
+}
+.shortcut .w{
+    height:31px;
+    line-height:31px
+}
+.fl>a{
+    color:red;
+}
+.shortcut .fr,
+.shortcut .fl{
+    height:100%;
+}
+.shortcut .fr li{
+    margin:0 5px;
+    float:left;
+}
+.shortcut .fr li:nth-of-type(2n){
+    height:12px;
+    width:1px;
+    margin:9px 10px 0px;
+    background:black;
+}

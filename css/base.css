@@ -1,0 +1,15 @@
+ul,li,img,html,body,dl,dd,h1,h2,h3,h4,h5,h6{
+    padding:0px;
+    margin:0px;
+}
+.clearfix::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+body{
+    -webkit-font-smoothing:antialiased;
+}
+ul,li{
+    list-style:none;
+}

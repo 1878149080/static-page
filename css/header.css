@@ -1,0 +1,80 @@
+header{
+    font-size:12px;
+}
+.w{
+    height:105px;
+    position:relative;
+}
+header .logo{
+    width:171px;
+    height:56px;
+    position:absolute;
+    top:25px;
+    left:0px;
+    background:url('../images/logo.png')
+}
+header a{
+    font-size:0px;
+    width:171px;
+    height:61px;
+    display:block;
+}
+header .search{
+    position:absolute;
+    top:25px;
+    left:347px;
+    width:538px;
+    height:32px;
+    border:solid 2px #b1191a;
+}
+.search input{
+    width:454px;
+    height:32px;
+    border:none;
+    outline:none;
+    padding-left:12px;
+    font-size:14px;
+    /* float:left; */
+}
+.search button{
+    background:#b1191a;
+    color:#fff;
+    width:83px;
+    height:100%;
+    font-size:16px;
+    border:none;
+}
+.shopCar{
+    position:absolute;
+    top:25px;
+    left: 998px;
+    width:140px;
+    height:36px;
+    color:#666;
+    line-height: 36px;
+    text-align:center;
+    background:#f7f7f7;
+    border:1px solid #dfdfdf;
+}
+.shopCar::before{
+    content:'12'
+}
+.shopCar span{
+    position:absolute;
+    top:-7px;
+    left:105px;
+    padding:0px 5px;
+    border-radius:7px 7px 7px 0px;
+    background:#e60012;
+    line-height:initial;
+}
+.hotWords{
+    padding-left:12px;
+    position: absolute;
+    left:348px;
+    top:67px;
+}
+.hotWords>ul>li{
+    float:left;
+    margin-right:25px;
+}
