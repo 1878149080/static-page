@@ -1,7 +1,7 @@
 header{
     font-size:12px;
 }
-.w{
+header .w{
     height:105px;
     position:relative;
 }

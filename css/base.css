@@ -1,6 +1,8 @@
-ul,li,img,html,body,dl,dd,h1,h2,h3,h4,h5,h6{
+ul,li,img,html,body,dl,dd,h1,h2,h3,h4,h5,h6,
+footer,main,header,section,p{
     padding:0px;
     margin:0px;
+    box-sizing: border-box;
 }
 .clearfix::after{
     content:'';
