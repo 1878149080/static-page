@@ -1,28 +1,20 @@
-main .top-box{
-    /* outline: 1px solid red; */
+main .header-box{
     padding:10px 0;
 }
 main .empty{
     width:209px;
     height:455px;
     display:inline-block;
-    /* display:none; */
     visibility: hidden;
 }
-main .left-box{
+main .middle-box{
     display: inline-block;
     width:721px;
     height:455px;
-    outline:1px solid red;
 }
-main .left-box img{
-    width:100%;
-    height:100%;
-}
-main .left-box img{
+main .middle-box img{
     width:721px;
     height:455px;
-    /* outline:1px solid red; */
 }
 main .right-box{
     display: inline-block;
@@ -31,25 +23,23 @@ main .right-box{
     outline: 1px solid red;
     margin-left:10px;
 }
-.right-box .top{
+main .right-box .top{
     width:100%;
     height:165px;
 }
-.right-box .bottom{
+main .right-box .bottom{
     width:100%;
     height:290px;
     background-color: pink;
 }
-main .small{
+main .recommend{
     width:1200px;
     height:163px;
-    outline: 1px solid red;
+    background-color: #ebebeb;
 }
-main .small-left{
+main .recommend-left{
     width:200px;
     height:100%;
-    /* display:inline-block; */
-    outline: 1px solid red;
     float:left;
     background-color: rgb(92, 82, 81);
     background-image:url('../images/recom.png');
@@ -57,183 +47,149 @@ main .small-left{
     background-repeat:no-repeat;
 }
 
-main .small-right{
+main .recommend-right{
     width:1000px;
     float:left;
-    outline: 1px solid blue;
 }
 main ul:after{
     content:'';
     clear:both;
     display:block;
 }
-main .small li{
+main .recommend li{
     width:250px;
     height:163px;
     float:left;
 }
-div[class^='box-content'] .top{
+main div[class^='shopping-box']{
+    margin-top:20px;
+    margin-bottom:15px;
+}
+main div[class^='shopping-box'] .top{
     font-size:14px;
     height:30px;
     line-height: 30px;
-    /* background-color: red; */
+    padding:0 10px;
 }
-div[class^='box-content'] .bottom{
+main div[class^='shopping-box'] .bottom{
     border: solid 1px #ededed;
 }
-div[class^='box-content'] .top .right{
-    padding-right:10px;
-}
-div[class^='box-content'] .top .right li{
+main div[class^='shopping-box'] .top .right{
     font-size:12px;
+}
+main div[class^='shopping-box'] .top .right li{
     float:left;
 }
-div[class^='box-content'] .top .right li:hover{
+main div[class^='shopping-box'] .top .right li:hover{
     color:red;
 }
-div[class^='box-content'] .top .right li:nth-of-type(n+2)::before{
+main div[class^='shopping-box'] .top .right li:nth-of-type(n+2)::before{
     content:'|';
     font-size:12px;
     margin:0 7px;
 }
-.box-content{
+main .guess-like{
     height:280px;
-    margin-top:20px;
-    margin-bottom:15px;
 }
-.box-content .top{
-    /* height:30px;
-    line-height: 30px; */
-    /* font-size:18px; */
-}
-.box-content .right{
-    font-size:12px;
-}
-.box-content .bottom{
+main .guess-like .bottom{
     height:235px;
-    padding:20px;
-    /* border: solid 1px #ededed; */
-    /* background-color: rgb(235, 235, 235); */
+    padding:20px 20px 10px;
 }
-.box-content .bottom .content{
-    width:193px;
-    height:100%;
+main .shopping-box .bottom .content{
     float:left;
     background-color: rgb(235, 235, 235);
 }
-.box-content .bottom .content img{
+main .shopping-box .bottom .content img{
     width:193px;
     height:100%;
 }
-.box-content .bottom .content .description{
+main .shopping-box .bottom .content .description{
     width:193px;
     text-align: center;
     padding:0px 40px 0px 30px;
     font-size:12px;
     line-height: 21px;
 }
-.box-content .bottom .content .price{
+main .shopping-box .bottom .content .price{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+main .shopping-box .bottom .content .price{
     font-size:18px;
     color:#df3033;
     line-height:21px;
 }
-.box-content .bottom .content:nth-child(n+2) .description{
-    border-left:1px solid #ededed;
+main .shopping-box .bottom .content:nth-child(n+2) .description{
+    border-left:1px solid #b1afaf;
+    /* border-left:1px solid red; */
 }
 
-.box-content2{
+main .shopping-box2{
     height:430px;
     margin-top:20px;
     margin-bottom:15px;
     outline:1px solid red;
 }
-.box-content2 .top{
+main .shopping-box2 .top{
     height:30px;
     outline: 1px solid red;
 }
-.box-content2 .bottom{
+main .shopping-box2 .bottom{
     height:400px;
     /* outline: 1px solid red; */
 }
-.box-content2 img{
+main .shopping-box2 img{
     float:left;
 }
-.box-content2 img:nth-of-type(1){
+.shopping-box2 img:nth-of-type(1){
     width:399px;
     height:400px;
 }
-.box-content2 img:nth-of-type(2){
+main .shopping-box2 img:nth-of-type(2){
     width:160px;
     /* height:400px; */
 }
-.box-content2 img:nth-of-type(3){
+main .shopping-box2 img:nth-of-type(3){
     width:80px;
     /* height:400px; */
 }
-.box-content2 img:nth-of-type(n+4){
+main .shopping-box2 img:nth-of-type(n+4){
     width:80px;
     /* height:400px; */
 }
-.box-content3{
+main .shopping-box3{
     height:390px;
     margin-top:20px;
     margin-bottom:15px;
     outline:1px solid red;
 }
-.box-content3 .top{
+main .shopping-box3 .top{
     height:30px;
     outline: 1px solid red;
 }
-.box-content3 .bottom{
+main .shopping-box3 .bottom{
     height:360px;
     outline: 1px solid red;
 }
-.box-content4{
+main .shopping-box3 .bottom div{
+    float:left;
+    /* outline:1px solid red; */
+}
+main .shopping-box3 .bottom div:nth-of-type(n+3){
+    width:227px;
+    height:180px;
+}
+main .shopping-box4{
     height:65px;
     outline: 1px solid black;
 }
-.box-content4 li{
+
+main .shopping-box4 li{
     float:left;
     /* width:120px;
     height:100%; */
 }
-.box-content4 li>img{
+main .shopping-box4 li>img{
     width:120px;
     height:65px;
-}
-.box-content5{
-    height:390px;
-    margin-top:20px;
-    margin-bottom:15px;
-    outline:1px solid red;
-}
-.box-content5 .top{
-    height:30px;
-    outline: 1px solid red;
-}
-.box-content5 .bottom{
-    height:360px;
-    outline: 1px solid red;
-}
-.box-content6{
-    height:65px;
-    outline: 1px solid black;
-}
-.box-content7{
-    height:390px;
-    margin-top:20px;
-    margin-bottom:15px;
-    outline:1px solid red;
-}
-.box-content7 .top{
-    height:30px;
-    outline: 1px solid red;
-}
-.box-content7 .bottom{
-    height:360px;
-    outline: 1px solid red;
-}
-.box-content6{
-    height:65px;
-    outline: 1px solid black;
 }
