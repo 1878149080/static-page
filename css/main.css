@@ -1,3 +1,4 @@
+/* 轮播 主盒子 */
 main .header-box{
     padding:10px 0;
 }
@@ -32,6 +33,10 @@ main .right-box .bottom{
     height:290px;
     background-color: pink;
 }
+/* 主盒子 */
+
+
+/* 推荐模块 */
 main .recommend{
     width:1200px;
     height:163px;
@@ -61,9 +66,13 @@ main .recommend li{
     height:163px;
     float:left;
 }
+/* 推荐模块 */
+
+
+/* 公共样式 */
 main div[class^='shopping-box']{
     margin-top:20px;
-    margin-bottom:15px;
+    margin-bottom:20px;
 }
 main div[class^='shopping-box'] .top{
     font-size:14px;
@@ -73,6 +82,11 @@ main div[class^='shopping-box'] .top{
 }
 main div[class^='shopping-box'] .bottom{
     border: solid 1px #ededed;
+}
+main div[class^='shopping-box'] .bottom::after{
+    content:'';
+    display: block;
+    clear:both;
 }
 main div[class^='shopping-box'] .top .right{
     font-size:12px;
@@ -88,6 +102,23 @@ main div[class^='shopping-box'] .top .right li:nth-of-type(n+2)::before{
     font-size:12px;
     margin:0 7px;
 }
+main .common-box{
+    height:400px;
+}
+main .common-box .bottom div{
+    float:left;
+}
+main .common-box .bottom div:nth-of-type(n+3){
+    width:227px;
+    height:180px;
+}
+main .common-box .bottom div:nth-of-type(n+3) img{
+    width:227px;
+    height:180px;
+}
+/* 公共样式 */
+
+/* 爱好猜测样式 */
 main .guess-like{
     height:280px;
 }
@@ -95,101 +126,96 @@ main .guess-like .bottom{
     height:235px;
     padding:20px 20px 10px;
 }
-main .shopping-box .bottom .content{
+main .guess-like .bottom .content{
     float:left;
     background-color: rgb(235, 235, 235);
 }
-main .shopping-box .bottom .content img{
+main .guess-like .bottom .content img{
     width:193px;
     height:100%;
 }
-main .shopping-box .bottom .content .description{
+main .guess-like .bottom .content .description{
     width:193px;
     text-align: center;
     padding:0px 40px 0px 30px;
     font-size:12px;
     line-height: 21px;
 }
-main .shopping-box .bottom .content .price{
+main .guess-like .bottom .content .price{
     margin-top:5px;
     margin-bottom:5px;
-}
-main .shopping-box .bottom .content .price{
     font-size:18px;
     color:#df3033;
     line-height:21px;
 }
-main .shopping-box .bottom .content:nth-child(n+2) .description{
+main .guess-like .bottom .content:nth-child(n+2) .description{
     border-left:1px solid #b1afaf;
-    /* border-left:1px solid red; */
 }
+/* 猜测爱好 */
 
-main .shopping-box2{
+
+/* 兴趣商品模块 */
+main .interest{
     height:430px;
-    margin-top:20px;
-    margin-bottom:15px;
-    outline:1px solid red;
 }
-main .shopping-box2 .top{
+main .interest .top{
     height:30px;
-    outline: 1px solid red;
 }
-main .shopping-box2 .bottom{
+main .interest .bottom{
     height:400px;
-    /* outline: 1px solid red; */
 }
-main .shopping-box2 img{
+main .interest img{
     float:left;
 }
-.shopping-box2 img:nth-of-type(1){
+main .interest img:nth-of-type(1){
     width:399px;
     height:400px;
 }
-main .shopping-box2 img:nth-of-type(2){
+main .interest img:nth-of-type(2){
     width:160px;
-    /* height:400px; */
 }
-main .shopping-box2 img:nth-of-type(3){
+main .interest img:nth-of-type(n+3){
     width:80px;
-    /* height:400px; */
 }
-main .shopping-box2 img:nth-of-type(n+4){
-    width:80px;
-    /* height:400px; */
-}
-main .shopping-box3{
-    height:390px;
-    margin-top:20px;
-    margin-bottom:15px;
-    outline:1px solid red;
-}
-main .shopping-box3 .top{
-    height:30px;
-    outline: 1px solid red;
-}
-main .shopping-box3 .bottom{
-    height:360px;
-    outline: 1px solid red;
-}
-main .shopping-box3 .bottom div{
-    float:left;
-    /* outline:1px solid red; */
-}
-main .shopping-box3 .bottom div:nth-of-type(n+3){
-    width:227px;
-    height:180px;
-}
-main .shopping-box4{
-    height:65px;
-    outline: 1px solid black;
-}
+/* 兴趣商品模块 */
 
-main .shopping-box4 li{
-    float:left;
-    /* width:120px;
-    height:100%; */
+
+/* 商标模块 */
+main .brand{
+    margin-top:20px;
+    margin-bottom:20px;
+    height:65px;
 }
-main .shopping-box4 li>img{
+main .brand li{
+    float:left;
+}
+main .brand li>img{
     width:120px;
     height:65px;
 }
+/* 商标模块 */
+
+
+/* 家电模块 */
+main .appliance{
+    height:390px;
+}
+main .appliance .bottom{
+    height:360px;
+}
+main .appliance .bottom div{
+    float:left;
+}
+main .appliance .bottom div:nth-of-type(1) img{
+    width:210px;
+    height:360px;
+}
+main .appliance .bottom div:nth-of-type(2) img{
+    width:330px;
+    height:360px;
+}
+main .appliance .bottom div:nth-of-type(n+3){
+    width:219px;
+    height:180px;
+}
+/* 家电模块 */
