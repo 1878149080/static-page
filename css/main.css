@@ -81,6 +81,21 @@ div[class^='box-content'] .top{
 div[class^='box-content'] .bottom{
     border: solid 1px #ededed;
 }
+div[class^='box-content'] .top .right{
+    padding-right:10px;
+}
+div[class^='box-content'] .top .right li{
+    font-size:12px;
+    float:left;
+}
+div[class^='box-content'] .top .right li:hover{
+    color:red;
+}
+div[class^='box-content'] .top .right li:nth-of-type(n+2)::before{
+    content:'|';
+    font-size:12px;
+    margin:0 7px;
+}
 .box-content{
     height:280px;
     margin-top:20px;
