@@ -72,15 +72,24 @@ main .small li{
     height:163px;
     float:left;
 }
+div[class^='box-content'] .top{
+    font-size:14px;
+    height:30px;
+    line-height: 30px;
+    /* background-color: red; */
+}
+div[class^='box-content'] .bottom{
+    border: solid 1px #ededed;
+}
 .box-content{
     height:280px;
     margin-top:20px;
     margin-bottom:15px;
 }
 .box-content .top{
-    height:30px;
-    line-height: 30px;
-    font-size:18px;
+    /* height:30px;
+    line-height: 30px; */
+    /* font-size:18px; */
 }
 .box-content .right{
     font-size:12px;
@@ -88,7 +97,7 @@ main .small li{
 .box-content .bottom{
     height:235px;
     padding:20px;
-    border: solid 1px #ededed;
+    /* border: solid 1px #ededed; */
     /* background-color: rgb(235, 235, 235); */
 }
 .box-content .bottom .content{
@@ -129,7 +138,26 @@ main .small li{
 }
 .box-content2 .bottom{
     height:400px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
+}
+.box-content2 img{
+    float:left;
+}
+.box-content2 img:nth-of-type(1){
+    width:399px;
+    height:400px;
+}
+.box-content2 img:nth-of-type(2){
+    width:160px;
+    /* height:400px; */
+}
+.box-content2 img:nth-of-type(3){
+    width:80px;
+    /* height:400px; */
+}
+.box-content2 img:nth-of-type(n+4){
+    width:80px;
+    /* height:400px; */
 }
 .box-content3{
     height:390px;
