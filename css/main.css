@@ -1,0 +1,187 @@
+main .top-box{
+    /* outline: 1px solid red; */
+    padding:10px 0;
+}
+main .empty{
+    width:209px;
+    height:455px;
+    display:inline-block;
+    /* display:none; */
+    visibility: hidden;
+}
+main .left-box{
+    display: inline-block;
+    width:721px;
+    height:455px;
+    outline:1px solid red;
+}
+main .left-box img{
+    width:100%;
+    height:100%;
+}
+main .left-box img{
+    width:721px;
+    height:455px;
+    /* outline:1px solid red; */
+}
+main .right-box{
+    display: inline-block;
+    width:250px;
+    height:455px;
+    outline: 1px solid red;
+    margin-left:10px;
+}
+.right-box .top{
+    width:100%;
+    height:165px;
+}
+.right-box .bottom{
+    width:100%;
+    height:290px;
+    background-color: pink;
+}
+main .small{
+    width:1200px;
+    height:163px;
+    outline: 1px solid red;
+}
+main .small-left{
+    width:200px;
+    height:100%;
+    /* display:inline-block; */
+    outline: 1px solid red;
+    float:left;
+    background-color: rgb(92, 82, 81);
+    background-image:url('../images/recom.png');
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+main .small-right{
+    width:1000px;
+    float:left;
+    outline: 1px solid blue;
+}
+main ul:after{
+    content:'';
+    clear:both;
+    display:block;
+}
+main .small li{
+    width:250px;
+    height:163px;
+    float:left;
+}
+.box-content{
+    height:280px;
+    margin-top:20px;
+    margin-bottom:15px;
+}
+.box-content .top{
+    height:30px;
+    line-height: 30px;
+    font-size:18px;
+}
+.box-content .right{
+    font-size:12px;
+}
+.box-content .bottom{
+    height:235px;
+    padding:20px;
+    border: solid 1px #ededed;
+    /* background-color: rgb(235, 235, 235); */
+}
+.box-content .bottom .content{
+    width:193px;
+    height:100%;
+    float:left;
+    background-color: rgb(235, 235, 235);
+}
+.box-content .bottom .content img{
+    width:193px;
+    height:100%;
+}
+.box-content .bottom .content .description{
+    width:193px;
+    text-align: center;
+    padding:0px 40px 0px 30px;
+    font-size:12px;
+    line-height: 21px;
+}
+.box-content .bottom .content .price{
+    font-size:18px;
+    color:#df3033;
+    line-height:21px;
+}
+.box-content .bottom .content:nth-child(n+2) .description{
+    border-left:1px solid #ededed;
+}
+
+.box-content2{
+    height:430px;
+    margin-top:20px;
+    margin-bottom:15px;
+    outline:1px solid red;
+}
+.box-content2 .top{
+    height:30px;
+    outline: 1px solid red;
+}
+.box-content2 .bottom{
+    height:400px;
+    outline: 1px solid red;
+}
+.box-content3{
+    height:390px;
+    margin-top:20px;
+    margin-bottom:15px;
+    outline:1px solid red;
+}
+.box-content3 .top{
+    height:30px;
+    outline: 1px solid red;
+}
+.box-content3 .bottom{
+    height:360px;
+    outline: 1px solid red;
+}
+.box-content4{
+    height:65px;
+    outline: 1px solid black;
+}
+.box-content5{
+    height:390px;
+    margin-top:20px;
+    margin-bottom:15px;
+    outline:1px solid red;
+}
+.box-content5 .top{
+    height:30px;
+    outline: 1px solid red;
+}
+.box-content5 .bottom{
+    height:360px;
+    outline: 1px solid red;
+}
+.box-content6{
+    height:65px;
+    outline: 1px solid black;
+}
+.box-content7{
+    height:390px;
+    margin-top:20px;
+    margin-bottom:15px;
+    outline:1px solid red;
+}
+.box-content7 .top{
+    height:30px;
+    outline: 1px solid red;
+}
+.box-content7 .bottom{
+    height:360px;
+    outline: 1px solid red;
+}
+.box-content6{
+    height:65px;
+    outline: 1px solid black;
+}

@@ -1,5 +1,5 @@
 ul,li,img,html,body,dl,dd,h1,h2,h3,h4,h5,h6,
-footer,main,header,section,p{
+footer,main,header,section,p,div{
     padding:0px;
     margin:0px;
     box-sizing: border-box;
