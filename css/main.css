@@ -192,6 +192,15 @@ div[class^='box-content'] .top .right li:nth-of-type(n+2)::before{
     height:65px;
     outline: 1px solid black;
 }
+.box-content4 li{
+    float:left;
+    /* width:120px;
+    height:100%; */
+}
+.box-content4 li>img{
+    width:120px;
+    height:65px;
+}
 .box-content5{
     height:390px;
     margin-top:20px;
