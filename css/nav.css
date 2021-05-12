@@ -37,7 +37,8 @@ nav .menu{
     position:absolute;
     top:47px;
     left:0px;
-    height:0px;
+    /* height:0px; */
+    height:464px;
     width:209px;
     background:#e60012;
     transition:height 0.3s ease-in;
